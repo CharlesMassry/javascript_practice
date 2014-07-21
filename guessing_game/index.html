@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>GuessingGame</title>
+  </head>
+  <body>
+    <img src="http://zactopia.files.wordpress.com/2010/02/wombat.jpg" alt="No
+  cheating!!" width="276" />
+  <div>
+    <button onclick="return wombat();">Wombat</button>
+    <button onclick="return capybara();">Capybara</button>
+  </div>
+    <div id="result">
+    </div>
+    <script type="text/javascript" charset="utf-8">
+    function wombat() {
+      document.getElementById("result").innerHTML = "Very Good!!"
+    }
+    function capybara(){
+    document.getElementById("result").innerHTML = "You're wrong!!"
+    }
+    </script>
+  </body>
+</html>
