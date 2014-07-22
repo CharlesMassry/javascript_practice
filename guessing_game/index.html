@@ -5,14 +5,14 @@
     <title>GuessingGame</title>
   </head>
   <body>
-    <img src="http://zactopia.files.wordpress.com/2010/02/wombat.jpg" alt="No
-  cheating!!" width="276" />
+    <img id="current" width="400"/>
   <div>
-    <button onclick="return wombat();">Wombat</button>
-    <button onclick="return capybara();">Capybara</button>
+    <a class="button" id="wombat">Wombat</a>
+    <a class="button" id="capybara">Capybara</a>
   </div>
     <div id="result">
     </div>
-    <script type="text/javascript" charset="utf-8" src="app.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="guessing_game.js"></script>
   </body>
 </html>
